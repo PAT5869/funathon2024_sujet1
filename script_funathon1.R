@@ -101,3 +101,6 @@ request_body <- '
   
   response_from_function <- get_travel_time_api_response(ROUTES_API_URL, request_body)
   
+  
+  list_itinerary <- response_from_function[[1]]$results[[1]]$locations[[1]]$properties
+  print(list_itinerary)

@@ -2,7 +2,7 @@
 /_site/
 /*_cache/
 .Rproj.user
-
+secrets.yaml
 # History files
 .Rhistory
 .Rapp.history
